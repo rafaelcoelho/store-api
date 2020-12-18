@@ -11,4 +11,18 @@ export const Products = [{
         level: 10,
         reservedItens: 0
     }
+},
+{
+    brand: {
+        name: 'Apple',
+        country: 'USA'
+    },
+    model: 'XR',
+    description: 'The latest Version',
+    price: 900,
+    createdDate: 1578635200000,
+    stock: {
+        level: 2,
+        reservedItens: 1
+    }
 }]

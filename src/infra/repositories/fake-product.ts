@@ -3,8 +3,8 @@ import { ProductModel } from '@/data/models'
 import { Products } from '@/infra/data-sources'
 
 export class FakeProductRepository implements LoadProductRepository {
+    
     async loadProduct (): Promise<ProductModel[]> {
-        
         return Products.map(item => ({
             brand: item.brand,
             model: item.model,
@@ -14,5 +14,4 @@ export class FakeProductRepository implements LoadProductRepository {
             stock: item.stock
         }))
     }
-
 }
