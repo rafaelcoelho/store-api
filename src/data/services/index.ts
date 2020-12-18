@@ -1,1 +1,1 @@
-export * from './product-loader'
+export * from './product-loader-service'

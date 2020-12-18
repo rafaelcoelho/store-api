@@ -1,7 +1,7 @@
 import { Products } from "@/domain/entities"
 import { ProductUnavailableError } from "@/domain/errors"
 import { LoadProductRepository } from "@/data/contract/load-product-repository"
-import { ProductLoader } from "@/data/services/api"
+import { ProductLoader } from "@/domain/api"
 
 export class ProductLoaderService implements ProductLoader {
     constructor(private readonly loadProductRepository: LoadProductRepository) {}
