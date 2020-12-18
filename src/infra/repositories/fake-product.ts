@@ -1,5 +1,5 @@
 import { LoadProductRepository } from '@/data/contract'
-import { ProductModel } from '@/data/models';
+import { ProductModel } from '@/data/models'
 import { Products } from '@/infra/data-sources'
 
 export class FakeProductRepository implements LoadProductRepository {
