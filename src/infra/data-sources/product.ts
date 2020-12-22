@@ -9,7 +9,7 @@ export const Products = [{
     createdDate: 1578625200000,
     stock: {
         level: 10,
-        reservedItens: 0
+        reservedItems: 0
     }
 },
 {
@@ -23,6 +23,6 @@ export const Products = [{
     createdDate: 1578635200000,
     stock: {
         level: 2,
-        reservedItens: 1
+        reservedItems: 1
     }
 }]

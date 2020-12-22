@@ -8,7 +8,7 @@ export const serverError = (error: Error): HttpResponse => ({
     payload: error.message
 })
 
-export const sucess = (data: any): HttpResponse => ({
+export const success = (data: any): HttpResponse => ({
     code: 200,
     payload: data
 })

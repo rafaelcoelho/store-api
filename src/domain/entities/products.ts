@@ -14,5 +14,5 @@ type Brand = {
 
 type Stock = {
     level: number,
-    reservedItens: number
+    reservedItems: number
 }

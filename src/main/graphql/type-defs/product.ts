@@ -21,6 +21,6 @@ export default gql`
 
     type Stock {
         level: Int!
-        reservedItens: Int!
+        reservedItems: Int!
     }
 `
